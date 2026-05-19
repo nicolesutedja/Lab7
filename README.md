@@ -12,7 +12,7 @@ Names: Nicole Sutedja and Kaley Chung
 > No, we should use unit tests.
 
 3) What is the difference between navigation and snapshot mode? 
-> The key difference between the navigation and snapshot mode is when each mode analyzes the page. Navigation mode analyzes the page right after it loads, providing an overall performance metric across categories like Performance, Accessibility, Best Practice, and SEO. However, it can analyze user interactions and content changes after the page loads. Snapshot mode analyzes the page in its current state. This makes it best for finding accessibility issues, but it cannot analyze the JS performance or changes to the DOM tree. Navigation mode is a better mode for measuring load performance, while snapshot mode is better for accessibility auditing at a specific moment. 
+> The key difference between Navigation mode and Snapshot mode is when each mode analyzes the page and what each is best suited for. Navigation mode analyzes the page immediately after it loads and provides performance metrics across categories. However, it cannot analyze user interactions and content changes after the initial load. Snapshot mode analyzes the page in its current state, making it useful for identifying accessibility issues at a specific moment. However, it cannot analyze the JS performance or changes to the DOM tree. In other words, Navigation mode is best for evaluating page load performance, while Snapshot  mode is best for evaluating the page at a specific moment in time. 
 
 
 
