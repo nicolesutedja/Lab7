@@ -18,7 +18,7 @@ Names: Nicole Sutedja and Kaley Chung
 - Reducing unused JavaScript to improve page load performance 
 - Adding a lang attribute to the <html> element to improve accessibility 
 - Adding a meta description to improve SEO 
-
+> After reviewing  the Lighthouse report, the first improvement is to reduce unused JavaScript, which would help improve page load time. Next, adding a lang attribute to the <html> element would help screen readers identify the page’s language, improving accessibility. Finally, adding a meta description would help search engines better understand and display the page in search results, improving the SEO score. 
 
 
 
